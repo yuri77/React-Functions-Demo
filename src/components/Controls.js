@@ -1,12 +1,12 @@
-import React from 'react'
+import React from "react";
 
 function Controls(props) {
   return (
     <div>
-      <button>+</button>
-      <button>-</button>
+      <button className="btn-control">-</button>
+      <button className="btn-control">+</button>
     </div>
-  )
+  );
 }
 
-export default Controls
+export default Controls;

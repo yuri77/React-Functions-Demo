@@ -2,14 +2,14 @@ import React from 'react'
 import Display from './Display';
 import Controls from './Controls';
 
-function Add(props) {
+function Panel(props) {
   return (
     <div>
       <Display />
       <Controls />
-      <button>Add</button>
+      <button className="btn-type">{props.type}</button>
     </div>
   )
 }
 
-export default Add
+export default Panel
